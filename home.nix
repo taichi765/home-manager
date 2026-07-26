@@ -42,6 +42,7 @@
     pkgs.just-lsp
     pkgs.gh
     pkgs.btop
+    pkgs.glow
 
     # Terminal, Editor
     pkgs.zellij
