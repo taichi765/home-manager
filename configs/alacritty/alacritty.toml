@@ -1,0 +1,5 @@
+[general]
+import = ["~/.config/alacritty/themes/themes/afterglow.toml"]
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono" }

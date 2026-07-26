@@ -56,6 +56,10 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+    ".config/alacritty/alacritty.toml".source = configs/alacritty/alacritty.toml;
+    ".config/helix/config.toml".source = configs/helix/config.toml;
+    ".config/helix/languages.toml".source = configs/helix/languages.toml;
+    ".config/zellij/config.kdl".source = configs/zellij/config.kdl;
   };
 
   # Home Manager can also manage your environment variables through
@@ -80,6 +84,8 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  # Enable GPU (see https://nix-community.github.io/home-manager/usage/gpu-non-nixos.html#sec-usage-gpu-non-nixos)
   targets.genericLinux = {
     enable = true;
   };
