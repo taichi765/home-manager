@@ -34,13 +34,21 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
+
+    # Tools
     pkgs.ripgrep
     pkgs.tokei
     pkgs.just
     pkgs.just-lsp
+
+    # Terminal, Editor
     pkgs.zellij
     pkgs.alacritty
     pkgs.helix
+
+    # GUI
+    pkgs.krita
+    pkgs.musescore
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -56,6 +64,7 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+
     ".config/alacritty/alacritty.toml".source = configs/alacritty/alacritty.toml;
     ".config/helix/config.toml".source = configs/helix/config.toml;
     ".config/helix/languages.toml".source = configs/helix/languages.toml;
