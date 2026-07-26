@@ -35,6 +35,12 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.ripgrep
+    pkgs.tokei
+    pkgs.just
+    pkgs.just-lsp
+    pkgs.zellij
+    pkgs.alacritty
+    pkgs.helix
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
