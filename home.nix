@@ -51,6 +51,11 @@
     # GUI
     pkgs.krita
     pkgs.musescore
+
+    # Fonts
+    pkgs.nerd-fonts.jetbrains-mono
+    pkgs.nerd-fonts.ubuntu-mono
+    pkgs.jetbrains-mono
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
