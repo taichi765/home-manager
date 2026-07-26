@@ -40,6 +40,8 @@
     pkgs.tokei
     pkgs.just
     pkgs.just-lsp
+    pkgs.gh
+    pkgs.btop
 
     # Terminal, Editor
     pkgs.zellij
