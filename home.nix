@@ -80,4 +80,7 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+  targets.genericLinux = {
+    enable = true;
+  };
 }
