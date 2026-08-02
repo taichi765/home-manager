@@ -43,6 +43,7 @@
     pkgs.gh
     pkgs.btop
     pkgs.glow
+    pkgs.nixd
 
     # Terminal, Editor
     pkgs.zellij
@@ -52,6 +53,7 @@
     # GUI
     pkgs.krita
     pkgs.musescore
+    pkgs.localsend
 
     # Fonts
     pkgs.nerd-fonts.jetbrains-mono
