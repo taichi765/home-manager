@@ -54,6 +54,7 @@
     pkgs.krita
     pkgs.musescore
     pkgs.localsend
+    pkgs.simplenote
 
     # Fonts
     pkgs.nerd-fonts.jetbrains-mono
