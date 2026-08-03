@@ -80,6 +80,7 @@
     ".config/helix/config.toml".source = configs/helix/config.toml;
     ".config/helix/languages.toml".source = configs/helix/languages.toml;
     ".config/zellij/config.kdl".source = configs/zellij/config.kdl;
+    ".bashrc".source = configs/bash/.bashrc;
   };
 
   # Home Manager can also manage your environment variables through
