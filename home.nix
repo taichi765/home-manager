@@ -44,7 +44,8 @@
     pkgs.btop
     pkgs.glow
     pkgs.nixd
-
+    pkgs.go
+    
     # Terminal, Editor
     pkgs.zellij
     pkgs.alacritty
@@ -55,6 +56,7 @@
     pkgs.musescore
     pkgs.localsend
     pkgs.thunderbird
+    pkgs.gimp
 
     # Fonts
     pkgs.nerd-fonts.jetbrains-mono
