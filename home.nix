@@ -57,6 +57,7 @@
     pkgs.localsend
     pkgs.thunderbird
     pkgs.gimp
+    pkgs.inkscape
 
     # Fonts
     pkgs.nerd-fonts.jetbrains-mono
