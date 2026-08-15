@@ -45,7 +45,7 @@
     pkgs.glow
     pkgs.nixd
     pkgs.go
-    pkgs.vscode-vscode-json-languageserver
+    pkgs.vscode-json-languageserver
     
     # Terminal, Editor
     pkgs.zellij
