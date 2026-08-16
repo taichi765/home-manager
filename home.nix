@@ -46,6 +46,7 @@
     pkgs.nixd
     pkgs.go
     pkgs.vscode-json-languageserver
+    pkgs.mise
     
     # Terminal, Editor
     pkgs.zellij
