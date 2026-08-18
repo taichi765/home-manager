@@ -65,6 +65,7 @@
     pkgs.nerd-fonts.jetbrains-mono
     pkgs.nerd-fonts.ubuntu-mono
     pkgs.jetbrains-mono
+    pkgs.d2coding
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
