@@ -47,6 +47,7 @@
     pkgs.go
     pkgs.vscode-json-languageserver
     pkgs.mise
+    pkgs.gopls
     
     # Terminal, Editor
     pkgs.zellij
@@ -88,6 +89,7 @@
     ".config/zellij/config.kdl".source = configs/zellij/config.kdl;
     ".bashrc".source = configs/bash/.bashrc;
     ".config/nix/nix.conf".source = configs/nix/nix.conf;
+    ".config/fontconfig/fonts.conf".source = configs/fontconfig/fonts.conf;
   };
 
   # Home Manager can also manage your environment variables through
