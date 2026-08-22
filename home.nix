@@ -39,20 +39,23 @@
     pkgs.ripgrep
     pkgs.tokei
     pkgs.just
-    pkgs.just-lsp
     pkgs.gh
     pkgs.btop
     pkgs.glow
-    pkgs.nixd
-    pkgs.go
-    pkgs.vscode-json-languageserver
     pkgs.mise
+  
+    # Languages, LSPs
     pkgs.gopls
+    pkgs.vscode-json-vscode-json-languageserver
+    pkgs.go
+    pkgs.nixd
+    pkgs.just-lsp
     
     # Terminal, Editor
     pkgs.zellij
     pkgs.alacritty
     pkgs.helix
+    pkgs.zed-editor
 
     # GUI
     pkgs.krita
