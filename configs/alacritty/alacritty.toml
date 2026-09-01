@@ -6,3 +6,6 @@ normal = { family = "JetBrainsMono Nerd Font Mono" }
 
 [window]
 startup_mode = "Maximized"
+
+[terminal]
+shell = "zellij"
