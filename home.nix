@@ -46,7 +46,7 @@
   
     # Languages, LSPs
     pkgs.gopls
-    pkgs.vscode-json-vscode-json-languageserver
+    pkgs.vscode-json-languageserver
     pkgs.go
     pkgs.nixd
     pkgs.just-lsp
@@ -122,4 +122,6 @@
   targets.genericLinux = {
     enable = true;
   };
+  
+  fonts.fontconfig.enable = true;
 }
