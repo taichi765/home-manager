@@ -90,6 +90,7 @@
     ".bashrc".source = configs/bash/.bashrc;
     ".config/nix/nix.conf".source = configs/nix/nix.conf;
     ".config/fontconfig/fonts.conf".source = configs/fontconfig/fonts.conf;
+    ".config/gh/config.yml".source = configs/gh/config.yml;
   };
 
   # Home Manager can also manage your environment variables through
