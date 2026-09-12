@@ -116,6 +116,21 @@
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
+  programs.git = {
+    enable = true;
+    settings = {
+      core = {
+        editor = "hx";
+        autocrlf = "input";
+      };
+      credential."https://github.com".helper="!gh auth git-credential";
+      user = {
+        name = "taichi765";
+        email = "taichi0209.youtub@gmail.com";
+      };
+    };
+  };
+
   # Enable GPU (see https://nix-community.github.io/home-manager/usage/gpu-non-nixos.html#sec-usage-gpu-non-nixos)
   targets.genericLinux = {
     enable = true;
