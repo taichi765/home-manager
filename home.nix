@@ -30,6 +30,7 @@
     pkgs.vscode-json-languageserver
     pkgs.go
     pkgs.nixd
+    pkgs.nixfmt
     pkgs.just-lsp
     pkgs.taplo
     
