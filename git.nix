@@ -12,6 +12,7 @@
         name = "taichi765";
         email = "taichi0209.youtub@gmail.com";
       };
+      init.defaultBranch = "main";
     };
   };
 }
