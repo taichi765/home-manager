@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, git-manage-utils, ... }:
 
 {
   home.username = "taichi765";
@@ -24,6 +24,8 @@
     pkgs.btop
     pkgs.glow
     pkgs.mise
+    pkgs.github-linguist
+    git-manage-utils.packages.${pkgs.system}.default
   
     # Languages, LSPs
     pkgs.gopls
