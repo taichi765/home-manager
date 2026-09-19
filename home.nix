@@ -26,6 +26,8 @@
     pkgs.mise
     pkgs.github-linguist
     git-manage-utils.packages.${pkgs.system}.default
+    pkgs.cargo-insta
+    pkgs.lazygit
   
     # Languages, LSPs
     pkgs.gopls
@@ -63,6 +65,7 @@
     ".config/helix/languages.toml".source = configs/helix/languages.toml;
     ".config/zellij/config.kdl".source = configs/zellij/config.kdl;
     ".bashrc".source = configs/bash/.bashrc;
+    ".bash_aliases".source = configs/bash/.bash_aliases;
     ".config/nix/nix.conf".source = configs/nix/nix.conf;
     ".config/fontconfig/fonts.conf".source = configs/fontconfig/fonts.conf;
     ".config/gh/config.yml".source = configs/gh/config.yml;
