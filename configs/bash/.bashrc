@@ -131,3 +131,4 @@ export JAVA_HOME=/home/taichi765/Applications/android-studio/jbr/
 
 export PATH=/home/taichi765/Android/Sdk/platform-tools:$PATH
 
+source ~/.nix-profile/etc/profile.d/hm-session-vars.sh
