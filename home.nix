@@ -27,6 +27,7 @@
     pkgs.github-linguist
     git-manage-utils.packages.${pkgs.system}.default
     pkgs.cargo-insta
+    pkgs.cargo-udeps
     pkgs.lazygit
   
     # Languages, LSPs
