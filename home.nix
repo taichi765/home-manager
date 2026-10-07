@@ -29,6 +29,11 @@
     git-manage-utils.packages.${pkgs.system}.default
     pkgs.cargo-insta
     pkgs.cargo-udeps
+    pkgs.cargo-llvm-cov
+    pkgs.cargo-generate
+    pkgs.cargo-flamegraph
+    pkgs.cargo-binstall
+    pkgs.cargo-expand
     pkgs.lazygit
   
     # Languages, LSPs
