@@ -24,6 +24,7 @@
     pkgs.btop
     pkgs.glow
     pkgs.mise
+    pkgs.usage
     pkgs.github-linguist
     git-manage-utils.packages.${pkgs.system}.default
     pkgs.cargo-insta
