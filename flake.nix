@@ -8,14 +8,14 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    git-manage-utils.url = "github:taichi765/git-manage-utils";
+    yagiu.url = "github:taichi765/yagiu";
   };
 
   outputs =
     {
       nixpkgs,
       home-manager,
-      git-manage-utils,
+      yagiu,
       ...
     }:
     let
@@ -31,7 +31,7 @@
         ];
 
         extraSpecialArgs = {
-          inherit git-manage-utils;
+          inherit yagiu;
         };
       };
     };

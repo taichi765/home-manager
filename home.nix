@@ -1,4 +1,4 @@
-{ pkgs, git-manage-utils, ... }:
+{ pkgs, yagiu, ... }:
 
 {
   home.username = "taichi765";
@@ -26,7 +26,7 @@
     pkgs.mise
     pkgs.usage
     pkgs.github-linguist
-    git-manage-utils.packages.${pkgs.system}.default
+    yagiu.packages.${pkgs.system}.default
     pkgs.cargo-insta
     pkgs.cargo-udeps
     pkgs.cargo-llvm-cov

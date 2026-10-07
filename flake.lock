@@ -1,23 +1,5 @@
 {
   "nodes": {
-    "git-manage-utils": {
-      "inputs": {
-        "nixpkgs": "nixpkgs"
-      },
-      "locked": {
-        "lastModified": 1789318449,
-        "narHash": "sha256-PV2OzL1m9FsOEzLfZgNS9uV17mIPsIhsHSvV6u8AR0A=",
-        "owner": "taichi765",
-        "repo": "git-manage-utils",
-        "rev": "24792062e503bc8982c453b071e6b7b7b8dfb3d2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "taichi765",
-        "repo": "git-manage-utils",
-        "type": "github"
-      }
-    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -25,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789311667,
-        "narHash": "sha256-AHjqAlQ5CoNR+3Y6NqASoQXCwJTqYPDaVIlt913Mv/E=",
+        "lastModified": 1791306979,
+        "narHash": "sha256-KuLePuhwJM9NLt/gTLHzXaOoSZKGoB3m7NfXjiQ98HY=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "7e3645c737e803fcc98e27bc99c5835c700836f2",
+        "rev": "fae6e9e42c3b762ab47635cddcfaf6f52374a61b",
         "type": "github"
       },
       "original": {
@@ -40,11 +22,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1789264731,
-        "narHash": "sha256-llGJbC0CcU8DfROr6mZjRJgMLQd/SKwfpzxJH/2lHO4=",
+        "lastModified": 1791336361,
+        "narHash": "sha256-o9ZUW4SlEAvFPIyJWnqChhOT/VHpHg8TAvEgmqK1fSI=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "02f5696b0e6097e589076d886b317b83ff0437d7",
+        "rev": "7dd199b0e2993e37b4775ed66b1c291699608c9f",
         "type": "github"
       },
       "original": {
@@ -72,9 +54,27 @@
     },
     "root": {
       "inputs": {
-        "git-manage-utils": "git-manage-utils",
         "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "yagiu": "yagiu"
+      }
+    },
+    "yagiu": {
+      "inputs": {
         "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1791373577,
+        "narHash": "sha256-o9fc9gFztgpWUhrK/gNgn1U52gk1gXXaui3Ivt9FmF0=",
+        "owner": "taichi765",
+        "repo": "yagiu",
+        "rev": "e1e43984efa01f206f0a1e210a580b4bac72469f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "taichi765",
+        "repo": "yagiu",
+        "type": "github"
       }
     }
   },
