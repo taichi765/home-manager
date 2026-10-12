@@ -35,6 +35,7 @@
     pkgs.cargo-binstall
     pkgs.cargo-expand
     pkgs.lazygit
+    pkgs.uv
   
     # Languages, LSPs
     pkgs.gopls
