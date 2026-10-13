@@ -36,6 +36,7 @@
     pkgs.cargo-expand
     pkgs.lazygit
     pkgs.uv
+    pkgs.winetricks
   
     # Languages, LSPs
     pkgs.gopls
