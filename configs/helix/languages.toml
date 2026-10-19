@@ -1,3 +1,7 @@
 [[language]]
 name = "nix"
 formatter = { command = "nixfmt" }
+
+[[language]]
+name = "toml"
+formatter = { command = "tombi", args = ["format"] }

@@ -45,7 +45,7 @@
     pkgs.nixd
     pkgs.nixfmt
     pkgs.just-lsp
-    pkgs.taplo
+    pkgs.tombi
     
     # Terminal, Editor
     pkgs.zellij
