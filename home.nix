@@ -37,6 +37,7 @@
     pkgs.lazygit
     pkgs.uv
     pkgs.winetricks
+    pkgs.sccache
   
     # Languages, LSPs
     pkgs.gopls
