@@ -79,6 +79,7 @@
     ".config/fontconfig/fonts.conf".source = configs/fontconfig/fonts.conf;
     ".config/gh/config.yml".source = configs/gh/config.yml;
     ".config/lazygit/config.yml".source = configs/lazygit/config.yml;
+    ".config/ripgrep/ripgreprc".source = configs/ripgrep/ripgreprc;
   };
 
   # Home Manager can also manage your environment variables through
@@ -99,6 +100,7 @@
   #
   home.sessionVariables = {
     EDITOR = "hx";
+    RIPGREP_CONFIG_PATH = "~/.config/ripgrep/ripgreprc";
   };
 
   # Let Home Manager install and manage itself.
