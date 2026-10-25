@@ -29,7 +29,7 @@
     yagiu.packages.${pkgs.system}.default
     pkgs.cargo-insta
     pkgs.cargo-udeps
-    pkgs.cargo-llvm-cov
+    # pkgs.cargo-llvm-cov
     pkgs.cargo-generate
     pkgs.cargo-flamegraph
     pkgs.cargo-binstall
