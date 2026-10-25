@@ -23,13 +23,13 @@
     pkgs.gh
     pkgs.btop
     pkgs.glow
-    pkgs.mise
+    # pkgs.mise: not latest version at 2026/10/25
     pkgs.usage
     pkgs.github-linguist
     yagiu.packages.${pkgs.system}.default
     pkgs.cargo-insta
     pkgs.cargo-udeps
-    # pkgs.cargo-llvm-cov
+    # pkgs.cargo-llvm-cov: tests failed at 2026/10/25
     pkgs.cargo-generate
     pkgs.cargo-flamegraph
     pkgs.cargo-binstall
