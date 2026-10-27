@@ -38,7 +38,8 @@
     pkgs.uv
     pkgs.winetricks
     pkgs.sccache
-  
+    pkgs.git-sizer
+    
     # Languages, LSPs
     pkgs.gopls
     pkgs.vscode-json-languageserver
