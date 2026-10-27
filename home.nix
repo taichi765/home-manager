@@ -39,6 +39,7 @@
     pkgs.winetricks
     pkgs.sccache
     pkgs.git-sizer
+    pkgs.actionlint
     
     # Languages, LSPs
     pkgs.gopls
