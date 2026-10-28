@@ -40,6 +40,7 @@
     pkgs.sccache
     pkgs.git-sizer
     pkgs.actionlint
+    pkgs.libnotify
     
     # Languages, LSPs
     pkgs.gopls
