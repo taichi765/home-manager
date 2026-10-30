@@ -105,6 +105,7 @@
   home.sessionVariables = {
     EDITOR = "hx";
     RIPGREP_CONFIG_PATH = "~/.config/ripgrep/ripgreprc";
+    SCCACHE_CACHE_SIZE = "16G";
   };
 
   # Let Home Manager install and manage itself.
