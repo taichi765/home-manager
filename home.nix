@@ -105,7 +105,7 @@
   #
   home.sessionVariables = {
     EDITOR = "hx";
-    RIPGREP_CONFIG_PATH = "~/.config/ripgrep/ripgreprc";
+    RIPGREP_CONFIG_PATH = "/home/taichi765/.config/ripgrep/ripgreprc";
     SCCACHE_CACHE_SIZE = "16G";
   };
 
