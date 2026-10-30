@@ -34,6 +34,7 @@
     pkgs.cargo-flamegraph
     pkgs.cargo-binstall
     pkgs.cargo-expand
+    pkgs.sqlx-cli
     pkgs.lazygit
     pkgs.uv
     pkgs.winetricks
