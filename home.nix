@@ -85,6 +85,7 @@
     ".config/gh/config.yml".source = configs/gh/config.yml;
     ".config/lazygit/config.yml".source = configs/lazygit/config.yml;
     ".config/ripgrep/ripgreprc".source = configs/ripgrep/ripgreprc;
+    ".config/bash/set_ps1.sh".source = configs/bash/set_ps1.sh;
   };
 
   # Home Manager can also manage your environment variables through
