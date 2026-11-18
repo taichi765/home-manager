@@ -61,7 +61,7 @@
 
     # GUI
     pkgs.krita
-    pkgs.musescore
+    # pkgs.musescore 2026/11/16時点で再生ボタンが表示されていなかったのでAppImageを使う
     pkgs.localsend
     pkgs.thunderbird
     pkgs.gimp
