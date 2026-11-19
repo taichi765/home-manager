@@ -41,7 +41,7 @@
     pkgs.sccache
     pkgs.git-sizer
     pkgs.actionlint
-    pkgs.libnotify
+    pkgs.gearlever
     
     # Languages, LSPs
     pkgs.gopls
