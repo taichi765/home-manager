@@ -13,7 +13,7 @@
   # release notes.
   home.stateVersion = "26.05";
 
-  imports = [./git.nix ];
+  imports = [./git.nix ./fcitx5.nix ];
   
   home.packages = [
     # Tools
