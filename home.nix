@@ -51,6 +51,7 @@
     pkgs.nixfmt
     pkgs.just-lsp
     pkgs.tombi
+    pkgs.rustup
     
     # Terminal, Editor
     pkgs.zellij
