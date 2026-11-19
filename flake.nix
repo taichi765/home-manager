@@ -23,7 +23,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      homeConfigurations."taichi765" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."taichi510" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         modules = [

@@ -1,8 +1,8 @@
 { pkgs, yagiu, ... }:
 
 {
-  home.username = "taichi765";
-  home.homeDirectory = "/home/taichi765";
+  home.username = "taichi510";
+  home.homeDirectory = "/home/taichi510";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
