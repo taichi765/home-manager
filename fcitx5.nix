@@ -1,8 +1,11 @@
 { pkgs, ... }: {
   i18n.inputMethod = {
-    enable =  true;
+    enable = true;
     type = "fcitx5";
-    fcitx5.addons = with pkgs; [ fcitx5-mozc ];
+    fcitx5.addons = with pkgs; [
+      fcitx5-mozc
+      fcitx5-hangul
+    ];
   };
   i18n.inputMethod.fcitx5.settings.inputMethod = {
     GroupOrder."0" = "デフォルト";
