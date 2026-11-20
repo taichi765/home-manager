@@ -41,7 +41,7 @@
     pkgs.sccache
     pkgs.git-sizer
     pkgs.actionlint
-    pkgs.gearlever
+    # pkgs.gearlever: install failed at 2026/11/20
     
     # Languages, LSPs
     pkgs.gopls
